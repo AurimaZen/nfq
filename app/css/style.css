@@ -1,0 +1,99 @@
+#myInput{
+    background-color: #c9d8c5;
+    margin-top: 10px;
+    float:right;
+    height: 40px;
+    border-color: #dddddd;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.sarasas{
+    border-radius: 5px;
+}
+.prekiu{
+    font-size: 19px;
+    background-color: #c9d8c5;
+    text-align: right;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.uzsakymu{
+    font-size: 19px;
+    color: white;
+     background-color: #337ab7;
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.uzsakymu a{
+    color: white;
+}
+.instrukcija{
+    padding-top: 20px;
+    float: right;
+}
+.instrukcija p{
+    color:#7d4627;
+    font-size: 15px;
+}
+.container {
+     background-color: #edd9c0;
+  margin-top: 20px;
+}
+.page {
+  display: none;
+}
+.page-active {
+  display:block;
+}
+/*table*/
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 3px;
+}
+
+tr:nth-child(even) {
+    background-color: #dbe9d8;
+}
+tr{
+    width:100%; 
+}
+/*uzsakymu sarasas*/
+
+.filteredtable tbody tr,
+.tablefilter{
+    display:none;
+}
+#class1.tablefilter:checked ~ table tbody tr.class1,
+#class2.tablefilter:checked ~ table tbody tr.class2,
+#class3.tablefilter:checked ~ table tbody tr.class3,
+#class4.tablefilter:checked ~ table tbody tr.class4,
+#class5.tablefilter:checked ~ table tbody tr.class5,
+#class6.tablefilter:checked ~ table tbody tr.class6{
+    display:table-row;
+}
+.tablefilter + label{
+    
+    cursor: pointer;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.tablefilter:checked + label{
+    background-color: #c9d8c5;
+    color: #337ab7;
+}
+th p{
+    padding-top: 10px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}

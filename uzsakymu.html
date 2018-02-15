@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">   
+<title>NFQ testas</title>
+<meta name="description" content="TEST SHOP">    
+<link rel="stylesheet" href="app/css/style.css">           
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
+    </head>
+    <body>
+        <div class="container sarasas">
+<!-- Filter -->
+  <div class="col-md-2 prekiu">
+         <a href="http://localhost/bootcamp/nfq"><h5>Prekių sąrašas</h5></a>
+        </div>
+       <div class="col-md-2 uzsakymu">
+         <a href="http://localhost/bootcamp/nfq/uzsakymu.html"><h5>Užsakymų sąrašas</h5></a>
+       </div>         
+ <input type="checkbox" class="tablefilter" name="class6" id="class6" checked />
+<label for="class6">Visi užsakymai</label>   
+<input type="checkbox" class="tablefilter" name="class1" id="class1" unchecked />
+<label for="class1">Gamyboje</label>                
+<input type="checkbox" class="tablefilter" name="class2" id="class2" unchecked />
+<label for="class2">Išrašyti sąskaitą</label>        
+<input type="checkbox" class="tablefilter" name="class3" id="class3" unchecked />
+<label for="class3">Laukia apmokėjimo</label>
+<input type="checkbox" class="tablefilter" name="class4" id="class4" unchecked />
+<label for="class4">Laukia išsiuntimo</label>
+<input type="checkbox" class="tablefilter" name="class5" id="class5" unchecked />
+<label for="class5">Įvykdytas</label>
+<!-- Table -->
+<table id="page1" class="filteredtable jumbotron page">
+    <thead>
+        <tr >  
+          <th><p>Būsena</p></th>  
+           <th><p>Prekė</p></th>
+          <th><p>Spalva</p></th>
+          <th><p>Dydis</p></th>
+          <th><p>Kaina</p></th>
+          <th><p>Kontaktai</p></th>
+            <th>SAUSIS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="class1 class6">
+            <td>Gamyboje</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>38</td>
+            <td>20</td>
+            <td>Lorem ipsum, Vilnius, 12117</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Žalia</td>
+             <td>36</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Ruda</td>
+            <td>42</td>
+            <td>30</td>
+            <td>Lorem ipsum, Jonas Jonaitis</td>
+        </tr>
+        <tr class=" class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Balta</td>
+            <td>XL</td>
+           <td>45</td>
+            <td>Adresas, e-paštas</td>
+        </tr>
+        <tr class=" class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Gėlėta</td>
+             <td>42</td>
+             <td>55</td>
+            <td>Miestas, gatvė telefonas</td>
+        </tr>
+        <tr class=" class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>40</td>
+            <td>20</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+                <tr class="class1 class6">
+            <td>Gamyboje</td>
+            <td>Sijonas</td>
+            <td>Mėlyna</td>
+            <td>42</td>
+            <td>20</td>
+            <td>Lorem ipsum, Vilnius, 12117</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Rausva</td>
+             <td>38</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Pilka</td>
+            <td>36</td>
+            <td>30</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Violetinė</td>
+            <td>M</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Žalsva</td>
+             <td>44</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+        <tr class="class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Violetinė</td>
+            <td>42</td>
+            <td>45</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+         <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Elektrinė</td>
+            <td>L</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Taškuota</td>
+             <td>38</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+        <tr class="class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Raudona</td>
+            <td>40</td>
+            <td>45</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+    </tbody>
+</table>
+            <table id="page2" class="filteredtable jumbotron page">
+    <thead>
+        <tr >  
+          <th><p>Būsena</p></th>  
+          <th><p>Prekė</p></th>
+          <th><p>Spalva</p></th>
+          <th><p>Dydis</p></th>
+          <th><p>Kaina</p></th>
+          <th><p>Kontaktai</p></th>
+            <th>VASARIS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="class1 class6">
+            <td>Gamyboje</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>38</td>
+            <td>20</td>
+            <td>Lorem ipsum, Vilnius, 12117</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Žalia</td>
+             <td>36</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Ruda</td>
+            <td>42</td>
+            <td>30</td>
+            <td>Lorem ipsum, Jonas Jonaitis</td>
+        </tr>
+        <tr class=" class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Gėlėta</td>
+             <td>42</td>
+             <td>55</td>
+            <td>Miestas, gatvė telefonas</td>
+        </tr>
+        <tr class=" class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>40</td>
+            <td>20</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Rausva</td>
+             <td>38</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Pilka</td>
+            <td>36</td>
+            <td>30</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Violetinė</td>
+            <td>M</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Žalsva</td>
+             <td>44</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+        <tr class="class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Violetinė</td>
+            <td>42</td>
+            <td>45</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+         <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Elektrinė</td>
+            <td>L</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Taškuota</td>
+             <td>38</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+        <tr class="class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Raudona</td>
+            <td>40</td>
+            <td>45</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+    </tbody>
+</table> 
+            <table id="page3" class="filteredtable jumbotron page">
+    <thead>
+        <tr >  
+          <th><p>Būsena</p></th>  
+          <th><p>Prekė</p></th>
+           <th><p>Spalva</p></th>
+           <th><p>Dydis</p></th>
+           <th><p>Kaina</p></th>
+           <th><p>Kontaktai</p></th>
+            <th>KOVAS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="class1 class6">
+            <td>Gamyboje</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>38</td>
+            <td>20</td>
+            <td>Lorem ipsum, Vilnius, 12117</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Žalia</td>
+             <td>36</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Ruda</td>
+            <td>42</td>
+            <td>30</td>
+            <td>Lorem ipsum, Jonas Jonaitis</td>
+        </tr>
+        <tr class=" class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Gėlėta</td>
+             <td>42</td>
+             <td>55</td>
+            <td>Miestas, gatvė telefonas</td>
+        </tr>
+        <tr class="class1 class6">
+            <td>Gamyboje</td>
+            <td>Sijonas</td>
+            <td>Mėlyna</td>
+            <td>42</td>
+            <td>20</td>
+            <td>Lorem ipsum, Vilnius, 12117</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Rausva</td>
+             <td>38</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Violetinė</td>
+            <td>M</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Žalsva</td>
+             <td>44</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+        <tr class="class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Violetinė</td>
+            <td>42</td>
+            <td>45</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+         <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Elektrinė</td>
+            <td>L</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Taškuota</td>
+             <td>38</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+    </tbody>
+</table>
+            <table id="page4" class="filteredtable jumbotron page">
+    <thead>
+        <tr >  
+          <th><p>Būsena</p></th>  
+          <th><p>Prekė</p></th>
+          <th><p>Spalva</p></th>
+          <th><p>Dydis</p></th>
+          <th><p>Kaina</p></th>
+          <th><p>Kontaktai</p></th>
+            <th>BALANDIS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="class1 class6">
+            <td>Gamyboje</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>38</td>
+            <td>20</td>
+            <td>Lorem ipsum, Vilnius, 12117</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Žalia</td>
+             <td>36</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Ruda</td>
+            <td>42</td>
+            <td>30</td>
+            <td>Lorem ipsum, Jonas Jonaitis</td>
+        </tr>
+        <tr class=" class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Balta</td>
+            <td>XL</td>
+           <td>45</td>
+            <td>Adresas, e-paštas</td>
+        </tr>
+        <tr class=" class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Gėlėta</td>
+             <td>42</td>
+             <td>55</td>
+            <td>Miestas, gatvė telefonas</td>
+        </tr>
+        <tr class=" class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>40</td>
+            <td>20</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+                <tr class="class1 class6">
+            <td>Gamyboje</td>
+            <td>Sijonas</td>
+            <td>Mėlyna</td>
+            <td>42</td>
+            <td>20</td>
+            <td>Lorem ipsum, Vilnius, 12117</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Rausva</td>
+             <td>38</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Pilka</td>
+            <td>36</td>
+            <td>30</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Violetinė</td>
+            <td>M</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Žalsva</td>
+             <td>44</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+    
+         <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Elektrinė</td>
+            <td>L</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Taškuota</td>
+             <td>38</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+        <tr class="class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Raudona</td>
+            <td>40</td>
+            <td>45</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+    </tbody>
+</table> 
+      <table id="page5" class="filteredtable jumbotron page">
+    <thead>
+        <tr >  
+          <th><p>Būsena</p></th>  
+          <th><p>Prekė</p></th>
+          <th><p>Spalva</p></th>
+          <th><p>Dydis</p></th>
+          <th><p>Kaina</p></th>
+          <th><p>Kontaktai</p></th>
+            <th>GEGUŽĖ</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="class1 class6">
+            <td>Gamyboje</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>38</td>
+            <td>20</td>
+            <td>Lorem ipsum, Vilnius, 12117</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Žalia</td>
+             <td>36</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Ruda</td>
+            <td>42</td>
+            <td>30</td>
+            <td>Lorem ipsum, Jonas Jonaitis</td>
+        </tr>
+        <tr class=" class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Gėlėta</td>
+             <td>42</td>
+             <td>55</td>
+            <td>Miestas, gatvė telefonas</td>
+        </tr>
+        <tr class=" class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Juoda</td>
+            <td>40</td>
+            <td>20</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+             <td>Suknelė</td>
+             <td>Rausva</td>
+             <td>38</td>
+             <td>50</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class2 class6">
+            <td>Išrašyti sąskaitą</td>
+            <td>Kelnės</td>
+            <td>Pilka</td>
+            <td>36</td>
+            <td>30</td>
+            <td>Lorem ipsum, Kaunas,12345</td>
+        </tr>
+        <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Violetinė</td>
+            <td>M</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Žalsva</td>
+             <td>44</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+        <tr class="class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Violetinė</td>
+            <td>42</td>
+            <td>45</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+         <tr class="class3 class6">
+            <td>Laukia apmokėjimo</td>
+            <td>Marškiniai</td>
+           <td>Elektrinė</td>
+            <td>L</td>
+           <td>40</td>
+            <td>Adresas, Miestas, šalis</td>
+        </tr>
+        <tr class="class4 class6">
+            <td>Laukia išsiuntimo</td>
+             <td>Suknelė</td>
+             <td>Taškuota</td>
+             <td>38</td>
+             <td>55</td>
+            <td>Vardenė pavardenė</td>
+        </tr>
+        <tr class="class5 class6">
+            <td>Įvykdytas</td>
+            <td>Sijonas</td>
+            <td>Raudona</td>
+            <td>40</td>
+            <td>45</td>
+            <td>Adresas, vardas, pavardė</td>
+        </tr>
+    </tbody>
+</table>       
+     <ul id="pagination-demo" class="pagination-lg pull-right"></ul>    
+  </div>  
+        </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="scripts/Simple-Customizable-Pagination-Plugin-with-jQuery-Bootstrap-Twbs-Pagination/jquery.twbsPagination.js"></script>
+<script src="scripts/nfq.js" ></script>      
+</html>
